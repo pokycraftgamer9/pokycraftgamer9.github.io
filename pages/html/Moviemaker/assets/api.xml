@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api version="1">
+	
+	<!-- Actors -->
+	<actor id="brun"/>
+	<actor id="blonde"/>
+	<actor id="red"/>
+	<actor id="diva"/>
+	<actor id="hiphop"/>
+	<actor id="rocker"/>
+	<actor id="smarty"/>
+	<actor id="sporty"/>
+	<actor id="date"/>
+	<actor id="jock"/>
+	<actor id="punkguy"/>
+	<actor id="baby"/>
+	<actor id="puppy"/>
+	<actor id="hamster"/>
+
+	<!-- Actees -->
+	<actee id="none"/>
+	<actee id="brun"/>
+	<actee id="blonde"/>
+	<actee id="red"/>
+	<actee id="diva"/>
+	<actee id="hiphop"/>
+	<actee id="rocker"/>		
+	<actee id="smarty"/>
+	<actee id="sporty"/>		
+	<actee id="date"/>
+	<actee id="jock"/>
+	<actee id="punkguy"/>
+	<actee id="baby"/>
+	<actee id="puppy"/>
+	<actee id="hamster"/>
+
+	<!-- Categories -->
+	<category id="dialog">
+		<clip id="screams"/>
+		<clip id="sings"/>
+		<clip id="talks"/>
+		<clip id="texts"/>
+		<clip id="thinks"/>
+		<clip id="whispers"/>
+		<clip id="yells"/>
+	</category>
+	
+	<category id="action">
+		<clip id="dances"/>
+		<clip id="gives"/>
+		<clip id="hugs"/>
+		<clip id="laughs"/>
+		<clip id="leaves"/>
+		<clip id="meets"/>
+		<clip id="poses"/>
+		<clip id="primps"/>
+		<clip id="rocks_out"/>
+		<clip id="runs"/>	
+		<clip id="skydives"/>
+		<clip id="throws"/>
+		<clip id="walks"/>
+	</category>
+
+	<category id="closeup">
+		<clip id="happy"/>
+		<clip id="jealous"/>
+		<clip id="love"/>
+		<clip id="mad"/>
+		<clip id="sad"/>
+		<clip id="surprised"/>
+		<clip id="teases"/>
+	</category>
+	
+	<category id="other">
+		<clip id="billboard"/>
+		<clip id="cootiecatcher"/>
+		<clip id="clapboard"/>
+		<clip id="clock"/>
+		<clip id="computer"/>
+		<clip id="crash"/>
+		<clip id="dreamy"/>
+		<clip id="earlier"/>
+		<clip id="fabulous"/>
+		<clip id="fashion"/>
+		<clip id="hypnotize"/>
+		<clip id="later"/>
+		<clip id="mall"/>
+		<clip id="meanwhile"/>
+		<clip id="oops"/>
+		<clip id="postit"/>
+		<clip id="scary"/>
+		<clip id="whatever"/>
+	</category>
+	
+	<!-- Locations -->
+	<location id="bathroom"/>
+	<location id="boutique"/>
+	<location id="city"/>
+	<location id="concert"/>
+	<location id="hearts"/>
+	<location id="house"/>
+	<location id="night"/>
+	<location id="park"/>
+	<location id="sky"/>
+
+
+	<!-- Props -->
+	<prop id="none"/>
+	<prop id="ball"/>
+	<prop id="bunny"/>
+	<prop id="bottle"/>	
+	<prop id="plunger"/>
+	<prop id="phone"/>
+	<prop id="bag"/>
+	<prop id="flowers"/>
+	<prop id="ufo"/>
+	<prop id="gift"/>
+	<prop id="stinkybox"/>
+
+
+
+	<!-- Clips -->
+	
+	<!-- Dialogue -->
+	
+	<clip id="screams" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+
+	<clip id="sings" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>		
+
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="talks" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		<actor id="cat"/>
+		<actor id="dog"/>
+		
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+
+	<clip id="texts" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+
+	<clip id="thinks" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="whispers" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+
+	<clip id="yells" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>		
+
+		<text id="bubble_txt"/>		
+
+		<default-locations/>
+	</clip>
+	
+	<!-- Action -->
+	
+	<clip id="dances" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="punkguy"/>	
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<actee id="none"/>
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>
+		<actee id="punkguy"/>
+		<actee id="hamster"/>
+		<actee id="puppy"/>
+
+		<default-locations/>
+		<default-props/>
+	</clip>	
+	
+	<clip id="gives" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>		
+		<actee id="date"/>
+		<actee id="jock"/>
+		<actee id="punkguy"/>
+		<actee id="baby"/>
+		<actee id="puppy"/>
+		<actee id="hamster"/>	
+
+		<default-locations/>
+		<default-props/>
+	</clip>
+
+	<clip id="hugs" duration="3">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>		
+		<actee id="date"/>
+		<actee id="jock"/>
+		<actee id="punkguy"/>
+		
+		<default-locations/>
+	</clip>	
+
+	<clip id="laughs" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<default-actees/>
+		<default-locations/>
+	</clip>
+
+	<clip id="leaves" duration="3">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+		
+		<actee id="none"/>
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>		
+		<actee id="date"/>
+		<actee id="jock"/>
+		<actee id="punkguy"/>	
+		<actee id="puppy"/>
+		<actee id="hamster"/>	
+		
+		<default-locations/>
+	</clip>
+	
+	<clip id="meets" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>		
+		<actee id="date"/>
+		<actee id="jock"/>
+		<actee id="punkguy"/>
+		<actee id="baby"/>
+		<actee id="puppy"/>
+		<actee id="hamster"/>	
+		
+		<default-locations/>
+		<default-props/>
+	</clip>
+	
+	<clip id="poses" duration="1">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>	
+		<actor id="date"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<actee id="none"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="rocker"/>		
+		<actee id="smarty"/>
+		<actee id="sporty"/>		
+		<actee id="date"/>
+		<actee id="jock"/>
+		<actee id="punkguy"/>
+		<actee id="baby"/>
+		<actee id="puppy"/>
+		<actee id="hamster"/>	
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="primps" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="diva"/>
+
+		<default-locations/>
+	</clip>
+
+	<clip id="rocks_out" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="punkguy"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>		
+
+		<actee id="none"/>
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="punkguy"/>
+		<actee id="hamster"/>
+		<actee id="puppy"/>
+
+		<default-props/>
+		<default-locations/>
+	</clip>
+	
+	<clip id="runs" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="jock"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>		
+
+		<actee id="none"/>
+		<actee id="brun"/>
+		<actee id="blonde"/>
+		<actee id="red"/>
+		<actee id="jock"/>
+		<actee id="hamster"/>
+		<actee id="puppy"/>
+
+		<default-locations/>
+	</clip>
+	
+
+	<clip id="skydives" duration="3">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>		
+		<actor id="puppy"/>
+		<actor id="hamster"/>		
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="throws" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<prop id="ball"/>
+		<prop id="bunny"/>
+		<prop id="bottle"/>	
+		<prop id="plunger"/>
+		<prop id="phone"/>
+		<prop id="bag"/>
+		<prop id="flowers"/>
+		<prop id="ufo"/>
+		<prop id="gift"/>
+		<prop id="stinkybox"/>
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="walks" duration="3">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+		
+		<actee id="none"/>
+		<actee id="baby"/>
+		<actee id="date"/>
+		<actee id="diva"/>
+		<actee id="hiphop"/>
+		<actee id="punkguy"/>
+		<actee id="rocker"/>
+		<actee id="sporty"/>
+		<actee id="puppy"/>
+		<actee id="hamster"/>		
+
+		<default-locations/>
+	</clip>
+	
+	<!-- Closeup -->
+	
+	<clip id="happy" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="jealous" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+
+		<default-locations/>
+	</clip>
+
+	<clip id="love" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+		<actor id="cat"/>
+		<actor id="dog"/>
+		<default-locations/>
+	</clip>
+
+	<clip id="mad" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>		
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+		<actor id="cat"/>
+		<default-locations/>
+
+		<default-locations/>
+	</clip>
+	
+	<clip id="sad" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>	
+		<actor id="dog"/>
+		<default-locations/>
+
+		<default-locations/>
+	</clip>
+
+	<clip id="surprised" duration="1">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<default-locations/>
+	</clip>
+
+	<clip id="teases" duration="2">
+		<actor id="brun"/>
+		<actor id="blonde"/>
+		<actor id="red"/>
+		<actor id="diva"/>
+		<actor id="hiphop"/>
+		<actor id="rocker"/>
+		<actor id="smarty"/>
+		<actor id="sporty"/>		
+		<actor id="date"/>
+		<actor id="jock"/>
+		<actor id="punkguy"/>
+		<actor id="baby"/>
+		<actor id="puppy"/>
+		<actor id="hamster"/>
+
+		<default-locations/>
+	</clip>
+
+	<!-- FX -->
+
+	<clip id="billboard" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+	
+	<clip id="cootiecatcher" duration="3">
+		<text id="textfield_txt"/>
+	</clip>
+
+	
+	<clip id="computer" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+	
+	<clip id="clapboard" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+
+	<clip id="dreamy" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+
+	<clip id="fashion" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+
+	<clip id="mall" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+	
+	<clip id="postit" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+
+	<clip id="scary" duration="2">
+		<text id="textfield_txt"/>
+	</clip>
+
+	<clip id="clock" duration="2"/>
+	<clip id="crash" duration="1"/>
+	<clip id="earlier" duration="1"/>
+	<clip id="fabulous" duration="2"/>
+	<clip id="hypnotize" duration="1"/>
+	<clip id="later" duration="1"/>
+	<clip id="meanwhile" duration="1"/>
+	<clip id="oops" duration="1"/>
+	<clip id="whatever" duration="1"/>
+
+	<!-- Help Movies -->
+
+</api>
