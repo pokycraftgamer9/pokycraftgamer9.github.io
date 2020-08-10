@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+-<theme cc_theme_id="import" name="Imported Assets" id="import">
+<!--Sorry that there's no indenting, I couldn't get the import script to keep that.-->
+<!--Also, be sure to leave a blank line before <theme>, otherwise the import script breaks.-->
+	<char id="Edgar" name="Edgar" thumb="Stand.swf" facing="left" default="stand.swf" motion="Walk.swf" enable="Y" is_premium="N" aid="1" money="0" sharing="0">
+	<tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:Zimmer Twins</tags>
+		<action id="Stand.swf" name="stand with" loop="Y" totalframe="1" enable="Y" aid="238"/>
+		<motion id="Walk.swf" name="walk" loop="Y" totalframe="24" enable="Y" aid="239"/>
+		<motion id="Run.swf" name="run" loop="Y" totalframe="24" enable="Y" aid="240"/>\
+		<motion id="Cry.swf" name="cry" loop="Y" totalframe="24" enable="Y" aid="241"/>
+		<motion id="Sit.swf" name="cry" loop="Y" totalframe="24" enable="Y" aid="241"/>
+<tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:ZimmerTwins</tags>
+</char>
+</theme>
